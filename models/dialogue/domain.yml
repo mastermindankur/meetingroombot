@@ -11,6 +11,7 @@ config:
 entities:
 - size
 - topping
+forms: []
 intents:
 - greet:
     use_entities: true
@@ -28,9 +29,11 @@ intents:
     use_entities: true
 slots:
   size:
+    auto_fill: true
     initial_value: null
     type: rasa_core.slots.TextSlot
   topping:
+    auto_fill: true
     initial_value: null
     type: rasa_core.slots.TextSlot
 templates:

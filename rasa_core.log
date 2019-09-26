@@ -20507,3 +20507,43 @@ Bot utterance 'BotUttered(text: Bye, thanks for chatting with pizza bot!, data: 
   "attachment": null
 })'
 Circuit breaker tripped. Stopped predicting more actions for sender 'user'
+Rasa process starting
+Added 'SpacyNLP' to component cache. Key 'SpacyNLP-en'.
+From /home/ec2-user/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+Restoring parameters from models/nlu/current/component_8_EmbeddingIntentClassifier.ckpt
+Scheduler started
+Looking for jobs to run
+No jobs; waiting until a job is added
+From /home/ec2-user/.local/lib/python3.6/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+From /home/ec2-user/.local/lib/python3.6/site-packages/tensorflow/python/keras/backend.py:4010: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+From /home/ec2-user/.local/lib/python3.6/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+Available web server routes: 
+hello                                              OPTIONS, HEAD, GET             /
+list_trackers                                      OPTIONS, HEAD, GET             /conversations
+execute_action                                     OPTIONS, POST                  /conversations/[sender_id]/execute
+log_message                                        OPTIONS, POST                  /conversations/[sender_id]/messages
+predict                                            OPTIONS, POST                  /conversations/[sender_id]/predict
+respond                                            OPTIONS, HEAD, POST, GET       /conversations/[sender_id]/respond
+retrieve_story                                     OPTIONS, HEAD, GET             /conversations/[sender_id]/story
+retrieve_tracker                                   OPTIONS, HEAD, GET             /conversations/[sender_id]/tracker
+replace_events                                     PUT, OPTIONS                   /conversations/[sender_id]/tracker/events
+get_domain                                         OPTIONS, HEAD, GET             /domain
+evaluate_stories                                   OPTIONS, POST                  /evaluate
+continue_training                                  OPTIONS, POST                  /finetune
+load_model                                         OPTIONS, POST                  /model
+parse                                              OPTIONS, POST                  /parse
+tracker_predict                                    OPTIONS, POST                  /predict
+static                                             OPTIONS, HEAD, GET             /static/[filename]
+status                                             OPTIONS, HEAD, GET             /status
+version                                            OPTIONS, HEAD, GET             /version
+custom_webhook_CmdlineInput.health                 OPTIONS, HEAD, GET             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                OPTIONS, POST                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
