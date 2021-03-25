@@ -121,7 +121,7 @@ python-engineio==3.5.1
 python-socketio==3.1.2
 python-telegram-bot==10.1.0
 pytz==2018.5
-PyYAML==3.13
+PyYAML==5.4
 pyzmq==17.1.2
 qtconsole==4.4.0
 questionary==1.1.1
